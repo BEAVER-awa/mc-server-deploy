@@ -1,6 +1,6 @@
 # mc-server-deploy
 
-一个 **WorkBuddy Agent Skill**：从零把一台 Linux 云主机变成可用的 Minecraft Java 版服务器，并接入 [MCSManager](https://mcsmanager.com/) 面板管理。
+一套经过实战验证的 **Minecraft Java 版服务器部署技能包**：从零把一台 Linux 云主机变成可用的 MC 服务器，并接入 [MCSManager](https://mcsmanager.com/) 面板管理。
 
 源自一次真实的部署实战（30 GB 存档跨机迁移、MC 26.2 / Java 25、NAT 型云主机），记录的不是"应该怎么做"，而是**实际会踩哪些坑、怎么绕**。
 
@@ -41,9 +41,9 @@ SSHPW=<密码> python scripts/ssh_run.py -H <host> -p <port> -u root \
   -c "ss -lntp | grep 25565"
 ```
 
-## 作为 Skill 使用
+## 作为技能包使用
 
-把本目录放进 WorkBuddy 的技能目录（如 `~/.workbuddy/skills/`），当对话中出现「开个 MC 服」「搭 Minecraft 服务器」「装 MCSManager」「服务端起不来」「玩家连不上」等需求时会被自动命中。
+本包遵循 [Agent Skills](https://github.com/anthropics/skills) 的 `SKILL.md` 约定。把本目录放进支持该约定的 AI 助手技能目录，当对话中出现「开个 MC 服」「搭 Minecraft 服务器」「装 MCSManager」「服务端起不来」「玩家连不上」等需求时会被自动命中。即使不接 AI 助手，`SKILL.md` 和 `references/` 本身也是一份可直接照做的部署手册。
 
 ## 安全要点
 

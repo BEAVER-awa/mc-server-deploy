@@ -1,7 +1,6 @@
 ---
 name: mc-server-deploy
 description: 从零部署 Minecraft Java 版服务器并接入 MCSManager 面板管理的完整流程，覆盖 Java 版本判定、MCSManager（含国内网络绕行）、NAT 转发/安全组开端口、实例注册、启动验证与崩溃排查。当用户提出「开个 MC 服」「搭 Minecraft 服务器」「装 MCSManager」「服务端起不来 / 一直崩」「玩家连不上」等需求时使用。
-agent_created: true
 ---
 
 # Minecraft 服务器部署（通用流程）
