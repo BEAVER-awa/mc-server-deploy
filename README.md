@@ -1,8 +1,8 @@
 # mc-server-deploy
 
-一套经过实战验证的 **Minecraft Java 版服务器部署技能包**：从零把一台 Linux 云主机变成可用的 MC 服务器，并接入 [MCSManager](https://mcsmanager.com/) 面板管理。
+一套 **Minecraft Java 版服务器部署技能包**：从零把一台 Linux 云主机变成可用的 MC 服务器，并接入 [MCSManager](https://mcsmanager.com/) 面板管理。
 
-源自一次真实的部署实战（30 GB 存档跨机迁移、MC 26.2 / Java 25、NAT 型云主机），记录的不是"应该怎么做"，而是**实际会踩哪些坑、怎么绕**。
+内容不是"应该怎么做"的理想流程，而是**实际会踩哪些坑、怎么绕**。
 
 ## 覆盖范围
 
